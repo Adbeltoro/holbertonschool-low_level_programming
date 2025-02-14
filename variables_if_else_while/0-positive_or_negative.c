@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <time.h>
 
-betty-style 0-positive_or_negative.c
 int main(void)
 {
     int n;
