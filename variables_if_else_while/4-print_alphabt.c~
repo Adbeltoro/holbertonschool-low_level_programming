@@ -1,0 +1,22 @@
+#include <studio.h>
+
+\**
+*main - Entry point
+*
+*Description: Prints the alphabet in lowercase,
+*except 'q' and 'e', followed by new line.
+*
+*Return: Always 0 (Success)
+*/
+
+int main(void)
+{
+char letter;
+for (letter != 'q' && letter <= 'Z'; letter++)
+{
+if (letter != 'q' && letter != 'e')
+putchar(letter);
+}
+putchar('\n')
+return (0);
+}
