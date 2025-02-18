@@ -16,8 +16,10 @@ int main(void)
 {
 int n;
 
-srand(time(0));
+srand(time(0)); /* Seed the random number generator */
 
+
+/* Check if n is positive, zero, or negative and print result */
 n = rand() - RAND_MAX / 2;
 
 printf("%d is ", n);
