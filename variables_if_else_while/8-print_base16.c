@@ -9,7 +9,7 @@
 */
 int main(void)
 {
-char hex= '0';
+char hex = '0';
 
 while (hex <= '9')
 {
