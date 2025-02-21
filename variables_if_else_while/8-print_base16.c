@@ -21,7 +21,7 @@ hex = 'a';
 while (hex <= 'f')
 {
 putchar(hex);
-	hex++;
+hex++;
 }
 putchar('\n');
 
