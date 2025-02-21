@@ -3,9 +3,8 @@
 /**
 * main - Entry point
 *
-* Description: Prints all the numbers of base 16 in lowercase,
-* followed by a new line.
-*
+* Description: Description: Prints all numbers of base 16 in lowercase
+* using only the putchar function.
 * Return: Always 0 (Success)
 */
 int main(void)
