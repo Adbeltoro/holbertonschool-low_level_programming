@@ -1,16 +1,20 @@
-#include <stdio.h>
-
 /**
-*
-* main - Entry point
-*
-* Description: This command print putchar.
-*
-* Return 0 (Success)
- 
-int main() {
-   
-printf("_putchar");
+ * main - Entry point
+ *
+ * Description: Prints "_putchar" followed by a new line
+ *
+ * Return: 0 (Success)
+ */
+int main(void)
+{
+    char str[] = "_putchar";
+    int i;
 
-return 0;
+    for (i = 0; str[i] != '\0'; i++)
+    {
+        _putchar(str[i]);
+    }
+    _putchar('\n');
+
+    return (0);
 }
